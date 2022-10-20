@@ -1,0 +1,24 @@
+/**************************************************************************/
+/* THREE JS */
+
+canvas {
+  // filter: contrast(1) brightness(1) saturate(1.5) hue-rotate(340deg);
+  // mix-blend-mode: overlay;
+  // mix-blend-mode: lighten;
+  // mix-blend-mode: soft-light;
+  mix-blend-mode: plus-lighter;
+  filter: contrast(1) brightness(1.1) saturate(1.5) hue-rotate(240deg);
+}
+
+.canvas__wrapper {
+  width: 100vw;
+  height: 100vh;
+  // background: linear-gradient(
+  //   170deg,
+  //   rgba(0, 0, 0, 1) 0%,
+  //   rgba(16, 0, 83, 1) 20%,
+  //   rgba(19, 5, 219, 1) 90%,
+  //   rgba(35, 13, 243, 1) 95%,
+  //   rgba(43, 50, 181, 1) 100%
+  // );
+}
